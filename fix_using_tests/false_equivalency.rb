@@ -10,7 +10,7 @@ def prompt_user
   puts "2.) Eat a ham."
 end
 
-def selection(get_user_input)
+def selection(num)
   num = get_user_input
   if num = 1
      "YUM YUM MUNCH MUNCH MUNCH"
